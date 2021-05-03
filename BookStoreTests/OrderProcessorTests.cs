@@ -1,6 +1,5 @@
 using BookStore;
 using BookStore.Model;
-using Microsoft.VisualStudio.TestPlatform.Common.SettingsProvider;
 using NUnit.Framework;
 
 namespace BookStoreTests
