@@ -3,7 +3,7 @@ using BookStore.Model;
 
 namespace BookStore
 {
-    public class SettingsProvider
+    public class SettingsProvider : ISettingsProvider
     {
         public IEnumerable<Category> Categories { get; }
         public IEnumerable<Book> Books { get; }
